@@ -1,0 +1,131 @@
+html {
+	font-family: arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline;
+	font-size: 13px;
+}
+.nav {
+	text-align: right;
+	padding: 25px 30px 0 0;
+	word-spacing: 10px;
+}
+.nav #sign-in {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	word-spacing: 0;
+	background-color: #5c83e0;
+	color: white;
+	padding: 8px 15px 8px 15px;
+	border-radius: 3px;
+	font-weight: bold;
+	text-align: center;
+}
+.nav #gmail {
+	display: inline-block;
+}
+.nav #images {
+	display: inline-block;
+}
+.nav #sign-in:hover {
+	text-decoration: none;
+}
+.logo {
+	margin: 0 auto;
+	width: 300px;
+}
+.logo .logotext {
+	margin: -20px 0 0 210px;
+	width: 30px;
+	color: #5c83e0;
+}
+.searchbox {
+	margin: 30px auto 0 auto;
+	max-width: 530px;
+	max-height: 55px;
+	border-top: 1px solid #ccc6;
+	border-radius: 1px;
+	padding-left: 5px;
+	box-shadow: 0 2px 2px 0 #ccc;
+	
+}
+.searchbox input {
+	width: 500px;
+	height: 35px;
+	border: medium none;
+}
+.content {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 100px 10px 0 10px;
+	top: 0;
+	bottom: 0;
+	width: 800px;
+}
+.buttons {
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	height: 50px;
+	padding: 30px 10px 10px 10px;
+	text-align: center;
+}
+.gsearch, .lsearch {
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #f3f3f3;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: grey;
+	border: 1px solid white;
+	border-radius: 2px;
+}
+.gsearch:hover, .lsearch:hover {
+	border: 1px solid #8080804d;
+	color: black;
+	border-radius: 2px;
+}
+.gsearch {
+	position: relative;
+	margin-right: 10px;
+}
+.foot {
+	word-spacing: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	background-color: #80808033;
+	padding-top: 10px;
+	height: 30px;
+	border-top: 1px solid #ccc6;
+}
+.footr {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	padding: 0 20px 10px 0;
+	
+}
+.footl {
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	padding: 0 0 10px 20px;
+
+}
