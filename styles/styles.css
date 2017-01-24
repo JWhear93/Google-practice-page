@@ -29,7 +29,7 @@ li {
 	word-spacing: 0;
 	background-color: #5c83e0;
 	color: white;
-	padding: 8px 15px 8px 15px;
+	padding: 5px 12px 5px 12px;
 	border-radius: 3px;
 	font-weight: bold;
 	text-align: center;
@@ -81,7 +81,7 @@ li {
 	display: block;
 	position: relative;
 	height: 50px;
-	padding: 30px 10px 10px 10px;
+	padding: 30px 25px 10px 10px;
 	text-align: center;
 }
 .gsearch, .lsearch {
@@ -110,7 +110,7 @@ li {
 	bottom: 0;
 	width: 100%;
 	display: block;
-	background-color: #80808033;
+	background-color: #8080801A;
 	padding-top: 10px;
 	height: 30px;
 	border-top: 1px solid #ccc6;
